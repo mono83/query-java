@@ -32,6 +32,13 @@ public interface Condition {
         private final Collection<Rule> rules;
         private final Collection<Condition> conditions;
 
+        /**
+         * General constructor.
+         *
+         * @param type       Condition type
+         * @param rules      Rules collection
+         * @param conditions Conditions collection
+         */
         public Impl(final Type type, final Collection<Rule> rules, final Collection<Condition> conditions) {
             if (type == null) {
                 throw new NullPointerException("type");
