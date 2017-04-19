@@ -1,0 +1,12 @@
+# Development folders
+/.idea/
+/out/
+/target/
+/build/
+
+# Development files
+*.iml
+
+# Binaries
+*.jar
+*.class
